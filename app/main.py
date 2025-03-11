@@ -7,7 +7,7 @@ app = FastAPI(title="Weatherly")
 
 app.add_middleware(
      CORSMiddleware,
-    allow_origins=["*"],  # Replace "*" with ["http://localhost:3000"] for security
+    allow_origins=["*"],  
     allow_credentials=True,
     allow_methods=["*"],  
     allow_headers=["*"], 
